@@ -1,4 +1,4 @@
-package cti.ctiportal.model.datablocks;
+package cti.ctiportal.model;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
