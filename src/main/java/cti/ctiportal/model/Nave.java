@@ -29,5 +29,8 @@ public class Nave {
     //Si este campo es distinto de cero, esta con un lote activo. O indica que está sin lote
     private Long idLote;
 
+    //Nave o modulo
+    private int tipoNave;
+
 
 }
