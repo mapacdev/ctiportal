@@ -1,33 +1,30 @@
 package cti.ctiportal.model;
 
-
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import java.util.List;
-
 @Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Table(name="naves")
-public class Nave {
+@Table(name="crianzas")
+public class Crianza {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    //Clave foranea de la explotacion
-    private Long idExplotacion;
+    private int AnimalesInicio;
 
-    private String nombre;
+    private int AnimalesFinal;
 
-    private int tipoAnimal;
+    private String comentarios;
 
-    //@OneToMany
-    //private List<Modulo> modulos;
+
+
+
 }

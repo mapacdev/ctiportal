@@ -27,4 +27,7 @@ public class Lote {
     private Date fechaInicio;
 
     private Date fechaFinal;
+
+    //Podría ser 0 o nulo
+    private Long idCrianza;
 }

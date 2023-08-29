@@ -19,5 +19,13 @@ public class Modulo {
     private Long id;
 
     //Clave foranea de la nave donde pertenece
+    //@ManyToOne
+    private Long naveId;
+
+    private String nombre;
+
+    //Si este campo es distinto de cero, esta con un lote activo. O indica que está sin lote
+    private Long idLoteActual;
+
 
 }
