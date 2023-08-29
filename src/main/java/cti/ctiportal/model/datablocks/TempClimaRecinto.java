@@ -31,7 +31,7 @@ public class TempClimaRecinto {
     private Date fecha;
 
     //Hay que estudiar como representamos los valores decimales
-    private Float Valor;
+    private Float dato;
 
 
 }
