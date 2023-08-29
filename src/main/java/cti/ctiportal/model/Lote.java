@@ -22,7 +22,7 @@ public class Lote {
 
     //Foreing key de la nave a la cual pertence el lote
 
-    private Long idNave;
+    private Long moduloId;
 
     private Date fechaInicio;
 

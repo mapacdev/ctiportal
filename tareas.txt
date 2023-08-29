@@ -1,0 +1,4 @@
+Mecanismo de fuente de datos Fuentes de datos
+Mecanismo de bloque de datos con fuente de datos
+Mecanismo de equipo que inicia la crianza
+
